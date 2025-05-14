@@ -1,5 +1,4 @@
 #!/bin/bash
-#set -x
 
 read -p "Enter key name: " key_name && echo $key_name
 if [ -n "$key_name" ]
@@ -37,3 +36,5 @@ then
       echo "${crt_name}.crt create succeded"
    fi
 fi
+
+
